@@ -20,5 +20,6 @@ jobs:
     
   job-dependant:
     runs-on: ubuntu-latest
-    run: date
+    steps:
+    - run: date
     needs: [job-ubuntu, job-windows, job-macos]
