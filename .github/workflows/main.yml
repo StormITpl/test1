@@ -9,11 +9,11 @@ jobs:
     - name: Step 1
       uses: actions/checkout@v2
     - name: Step 2
-      run: evn | sort
-  job2:
-    name: Windows job
-    runs-on: windows-latest
-    steps:
-    - name: Step 1
-      run: "Get-ChildItem Env: | Sort-Object Name"
+      run: env | sort
+#  job2:
+#    name: Windows job
+#    runs-on: windows-latest
+#    steps:
+#    - name: Step 1
+#      run: "Get-ChildItem Env: | Sort-Object Name"
     
