@@ -5,15 +5,18 @@ on: push
 jobs:
   job-ubuntu:
     runs-on: ubuntu-latest
-    run: date
+    steps:
+    - run: date
     
   job-windows:
     runs-on: windows-latest
-    run: date
+    steps:
+    - run: date
     
   job-macos:
     runs-on: macos-latest
-    run: date
+    steps:
+    - run: date
     
   job-dependant:
     runs-on: ubuntu-latest
