@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Step 1
-      uses: checkout@v2
+      uses: actions/checkout@v2
     - name: Step 2
       run: evn | sort
   job2:
